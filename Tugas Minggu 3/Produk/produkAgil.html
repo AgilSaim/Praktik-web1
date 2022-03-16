@@ -1,0 +1,336 @@
+<html lang="en">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>Zchstore</title>
+        <link rel="icon" href="img/Logo.png">
+    </head>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        [class*="col-"]{
+            float: left;
+            padding: 15px;
+        }
+        html{
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .header{
+            background-color: #364F6B;
+            color: #EEEEEE;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li{
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #393E46;
+            color: #EEEEEE;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 12px rgba(0,0,0,0.24);
+        }
+        .menu li:hover{
+            background-color: #252A34;
+        }
+        body{
+            background-color: white;
+        }
+        .aside{
+            background-color: #393E46;
+            padding: 15px;
+            color: #EEEEEE;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .footer{
+            background-color: #00ADB5;
+            color: #EEEEEE;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+        /* For desktop: */
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
+
+        @media only screen and (max-width: 768px){
+            /* For mobile phones: */
+            [class*="col-"]{
+                width: 100%;
+            }
+        }
+        .headerproduk{
+            background-color: #3F72AF;
+            color: #EEEEEE;
+            padding: 1px;
+            text-align: center;
+        }
+        .produkfoto img{
+            height: 350px;
+        }
+        .produkjudul h1{
+            text-align: center;
+        }
+
+    </style>
+
+<body>
+    <div class="header">
+        <h1>Zchstore</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 menu">
+            <ul>
+                <li>Daftar Produk :</li>
+                <a href="#Dumbell"><li>Dumbell</li></a>
+                <a href="#Matras"><li>Matras Yoga</li></a>
+                <a href="#Skipping"><li>Tali Skipping</li></a>
+                <a href="#Ball"><li>Gym Ball</li></a>
+                <a href="#Band"><li>Resistance Band</li></a>
+                <a href="#Pull"><li>Pull Up Bar</li></a>
+                <a href="#Sepeda"><li>Sepeda Statis</li></a>
+                <a href="#Treadmill"><li>Treadmill</li></a>
+            </ul>
+        </div>
+
+        <div class="col-6">
+            <h1>Pembuka</h1>
+            <p>Hallo para pejuang kesehatan! Gimana nih kabarnya? pastinya tetap menjaga kesehatan dan keseimbangan tubuh kamu kan? walaupun kegiatan harianmu agak terbatasi karena virus saat ini, tapi yang pasti jangan lupa juga untuk menjaga kesehatan kamu selama di rumah.</p>
+            <p>Disini kita punya beberapa produk nih, yang pastinya bisa kamu gunakan untuk berlatih dan juga menjaga tubuh kamu. Dengan alat tersebut kamu bisa ngelakuin beberapa gerakan.
+            </p>
+        </div>
+
+        <div class="col-3 right">
+            <div class="aside">
+                <h2>Hal apa yang kamu dapat?</h2>
+                <p>Tentunya kamu bisa menjaga kesehatan tubuh kamu, tapi tentunya juga diperlukan niat kamu untuk melakukannya.</p>
+                <h2>Dimana kamu dapat melakukannya?</h2>
+                <p>Tenang saja dengan alat-alat tersebut kamu tetap dapat melakukannya dirumah.</p>
+                <h2>Bagaimana melakukannya?</h2>
+                <p>Setelah produk didapatkan maka kamu dapat berkonsultasi maupun menanyakan seputar hal olahraga yang berkaitan dengan alat tersebut.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerproduk">
+        <h1>Produk</h1>
+    </div>
+
+    <div class="produkfoto">
+    <section id="Dumbell">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Dumbell.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Dumbell</h1>
+            <p>Jika belum begitu berani untuk menjajal angkat beban, kamu bisa menyiasatinya dengan menggunakan dumbell untuk melatih kekuatan lengan. Dumbell bentuknya lebih kecil dan pendek dari barbel, hanya bisa digunakan untuk satu tangan. Ukuran berat dumbell pun bermacam-macam, berkisar dari 2-10 kg, tergantung pada kemampuan kamu, Toppers.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="dumbellharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 65.000 – Rp 3.735.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Matras">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Matras.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Matras Yoga</h1>
+            <p>Yoga membantu relaksasi tubuh sekaligus membentuk tubuhmu agar lebih indah. Tak perlu melakukan yoga yang rumit, cukup sederhana saja misalnya pose bertapa, child pose, cobra pose, dan lainnya. Jangan lupa gunakan matras yoga agar mendukung kegiatan olahraga kamu. Selain simpel, aktivitas ini pun tidak memakan banyak tempat di rumah, sehingga kamu bisa melakukannya di mana saja.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="matrasharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 50.000 – Rp 185.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Skipping">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Skipping.jpeg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Tali Skipping</h1>
+            <p>Olahraga ini tidak begitu mahal, kamu hanya harus menyediakan karet gelang yang nantinya akan dibuat menjadi tali. Selain itu, kamu juga bisa menggunakan tali skipping. Cukup mencari tempat yang luas di rumah. Seperti teras, taman, atau balkon lalu kamu bisa melakukan olahraga ini. Jika rutin, lompat tali akan memperkuat otot-otot yang ada di kaki.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="skippingharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 17.000 – Rp 65.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Ball">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Ball.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Gym Ball</h1>
+            <p>Ketika program olahraga untuk melatih perut secara konvensional membuat kamu bosan, olahraga mengecilkan perut dengan memanfaatkan gym ball bisa dicoba. Program latihan menggunakan gym ball mampu membantu mengecilkan perut, terutama bagi para wanita untuk perut tak hanya menjadi lebih kecil dan ramping tapi juga memiliki otot.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="ballharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 52.500 – Rp 219.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Band">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Band.jpeg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Resistance Band</h1>
+            <p>Pada dasarnya, tidak ada aturan yang pasti soal olahraga dengan resistance band. Namun, tak jauh berbeda dengan olahraga yang lainnya, kamu bisa menyesuaikan durasinya sesuai dengan kondisi tubuh. Misalnya sudah terbiasa berolahraga atau belum. Pastikan kamu melakukan pemanasan terlebih dahulu sebelum melakukan olahraga dengan resistance band.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="bandharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 25.000 – Rp 45.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Pull">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/PullUp.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Pull Up Bar</h1>
+            <p>Pull up merupakan olahraga yang diminati para pria karena  dapat membantu membentuk otot-otot tubuh. Ternyata alat pull up ini juga bisa dilakukan wanita. Gerakannya pun bisa dilakukan dengan simpel. Pertama, posisikan tubuh seperti menggelantungkan tangan dan raih bar yang sudah disediakan. Selanjutnya, usahakan angkat badan hingga dagu sejajar dengan bar-nya.</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="pullupharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 155.000 – Rp 1.700.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="Sepeda">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Sepeda.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Sepeda Statis</h1>
+            <p>Bersepeda merupakan sebuah kegiatan olahraga dengan cara mengayuh. Dengan bersepeda, dapat menguatkan kaki, meningkatkan kesehatan dan membakar kalori. Sekarang, olahraga ini bisa dilakukan di rumah, yakni dengan sepeda statis. Alat ini memiliki banyak manfaat, mulai dari mengurangi tingkat stres dan meningkatkan mood, hingga atasi penyakit berbahaya, lho!</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="sepedaharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 980.000 – Rp 2.780.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<br class="border7">
+
+    <section id="Treadmill">
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="img/Treadmill.jpg">
+        </div>
+
+        <div class="col-6">
+            <div class="produkjudul">
+            <h1>Treadmill</h1>
+            <p>Olahraga pertama yang mudah untuk dilakukan di rumah adalah jogging. Walaupun jogging identik dengan kegiatan berlari, tapi kamu tidak perlu berputar-putar dalam rumah. Cukup berlari di tempat sambil nonton televisi juga bisa. Lakukan aktivitas ini setidaknya selama 10 menit setiap hari. Jadi, aktivitas olahraga ini bisa dilakukan secara lebih menyenangkan bukan, Toppers?</p>
+            </div>
+        </div>
+
+        <div class="col-3 right">
+            <div class="treadharga">
+            <div class="aside">
+                <h3>Rentang Harga :<br>Rp 2.700.000 – Rp 9.800.000</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>
+
+    <div class="footer">
+        <h2>Pesan Sekarang!</h2>
+        <button>Pesan</button>
+    </div>
+</body>
+</html>
